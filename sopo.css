@@ -1,0 +1,137 @@
+﻿body {
+    text-align:center;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font:20px bold Tahoma;
+    background: url('C:\Users\shweta gupta\Desktop\New folder\bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: rgba(110,110,110,0.7) 3px 3px 5px;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color:green;
+    
+}
+
+hr {
+    max-width: 400px;
+    border-color: #9900ff;
+}
+
+.brand,
+.navbar-brand {
+    font-weight: 900;
+    letter-spacing: 2px;
+    color:red;}
+
+.img-full {
+    min-width: 50%;
+    margin:25px auto;
+    min-height: 50%;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+    font:Tahoma;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #fff;
+}
+
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: Sans-Serif;
+}
+
+.img-left {
+    float: left;
+    margin: 0 auto 0;
+}
+
+footer {
+display: block;
+}
+
+footer p {
+    margin: 0;
+    padding: 50px 0;
+    text-decoration: blue;
+}
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #ccffee;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+    .nav>li>a {
+        padding: 35px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+}
+.screenshots-slider owl-carousel owl-loaded{
+    display:inline-block;
+}
+#screenshot.screenshots-section.scrolled{
+    min-width: 1055px;
+    min-height: 651.47px;
+}
