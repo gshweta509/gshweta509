@@ -1,0 +1,214 @@
+﻿
+
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color:#c5e318;
+}
+.owl-carousel {
+  display:inline;
+  -webkit-tap-highlight-color: transparent;
+  /* position relative and z-index fix webkit rendering fonts issue */
+  position: relative;
+  left:0;
+  right:20px;
+  z-index: 1;
+}
+.screenshot slider owl-carousel owl-loaded {
+  display: block;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: white;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.img-full {
+    min-width: 50%;
+    margin:25px auto; 
+    margin-top:50px;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.img-right {
+    float: right;
+    margin: 25px auto ;
+    min-width: 40%;
+    min-height:30%; 
+    transform: rotate(45deg) translate(130,30);
+}
+#download{
+    text-align:center;
+    background-color: grey;
+    
+}
+footer {
+    background-color:grey;
+    text-align: center;
+}
+
+footer p {
+    padding: 50px 0;
+}
+.col-features text-left{
+    float:left;
+    margin:30px auto;
+}
+#screenshots{
+ position:relative;
+ float: left;
+}
+.box{
+    margin:25px auto;
+    border:1px;
+background-color: #2C3E50;
+
+}
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #2C3E50;
+    }
+    .box{
+    margin:25px auto;
+    border:1px;
+background-color: #2C3E50;
+
+}
+
+    .top-divider {
+        margin-top: 0;
+    }
+    #screenshots{
+ position:relative;
+ float:left;
+}
+
+    .img-right {
+        float: right;
+        margin-right: 25px;
+        min-height:40%;
+        min-width:30%;
+        transform:rotate(45deg) translate(130,30);
+    }
+    .navbar {
+        border-radius: 0;
+        
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    .navbar-default {
+        border: none;
+
+    }
+
+    .nav>li>a {
+        padding: 35px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+    .col-features text-left{
+    float:left;
+    margin:30px auto;
+}
+#download{
+    text-align:center;
+    background-color:grey;
+    
+}
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+
